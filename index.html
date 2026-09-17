@@ -12,23 +12,28 @@
       background: #ffffff;
       color: #111111;
       font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
-      display: flex;
-      min-height: 100vh;
-      align-items: center;
-      justify-content: center;
+      line-height: 1.8;
     }
     main {
-      text-align: center;
-      padding: 2rem;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
     }
     h1 {
       font-size: 1.75rem;
       font-weight: 600;
-      margin: 0 0 0.5rem;
+      margin: 0 0 2.5rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 2.5rem 0 0.5rem;
+      border-bottom: 1px solid #dddddd;
+      padding-bottom: 0.25rem;
     }
     p {
-      margin: 0.25rem 0;
-      color: #555555;
+      margin: 0.5rem 0;
+      color: #333333;
     }
     a {
       color: #111111;
@@ -38,8 +43,16 @@
 <body>
   <main>
     <h1>松山将太郎</h1>
-    <p>Shotaro Matsuyama</p>
-    <p><a href="mailto:matsuyama.shotaro.recruit@gmail.com">matsuyama.shotaro.recruit@gmail.com</a></p>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>松山将太郎（Shotaro Matsuyama）</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p><a href="mailto:matsuyama.shotaro.recruit@gmail.com">matsuyama.shotaro.recruit@gmail.com</a></p>
+    </section>
   </main>
 </body>
 </html>
